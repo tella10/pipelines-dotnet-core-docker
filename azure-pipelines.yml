@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '932c7d89-0259-456e-a894-b4f87c9176f6'
-  imageRepository: 'tellaimage'
+  imageRepository: 'tellaimage1'
   containerRegistry: 'CRTesting1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
